@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns:context="http://www.springframework.org/schema/context"
+	xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/beans/spring-context-2.5.xsd">
+    
+    
+
+	<bean id="fakeId" class="in.py.iam.datamodel.Identity">
+	<property name="UserName">
+			<value></value>
+		</property>
+		<property name="lastName">
+			<value></value>
+		</property>
+		<property name="firstName">
+			<value></value>
+		</property>
+		<property name="emailid">
+			<value></value>
+		</property>
+		<property name="password">
+			<value></value>
+		</property>
+		<property name="birthdate">
+			<value></value>
+		</property>
+
+	</bean>
+
+	<bean id="mySessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="configLocation">
+			<value>
+				classpath:hibernate.cfg.xml
+			</value>
+		</property>
+	</bean> 
+</beans>

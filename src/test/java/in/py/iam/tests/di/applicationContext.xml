@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns:context="http://www.springframework.org/schema/context"
+	xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/beans/spring-context-2.5.xsd">
+
+   <bean id="fakeIdentity2" class="in.py.iam.datamodel.Identity">
+       <constructor-arg><value>Prachi</value></constructor-arg>
+       <constructor-arg><value>Yadav</value></constructor-arg>
+   </bean>
+</beans>

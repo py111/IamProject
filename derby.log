@@ -1,0 +1,20 @@
+----------------------------------------------------------------
+Sat May 23 20:37:33 CEST 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-014d-8210-df37-0000037d3060 
+on database directory C:\Users\Prachi\MyDB\Identites with class loader WebappClassLoader
+  context: /identitymanagement
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+ClassRealm[plugin>org.codehaus.mojo:tomcat-maven-plugin:1.1, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+ 
+Loaded from file:/C:/Users/Prachi/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_20-b26
+user.dir=C:\Users\Prachi\Workspace_luna\identitymanagement
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
